@@ -99,7 +99,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                 <div
                   class="lg:w-1/3 w-full text-base text-slate-600 md:text-xl pt-5 dark:text-slate-400 col-span-1"
                 >
-                  <!-- Front-End -->
+                  <!-- Software Engineer -->
                   <div>
                     <p>
                       A
