@@ -3,7 +3,7 @@ import { NuxtAwesomeAppConfig } from './app.config'
 export default defineNuxtSchema({
   appConfig: {
     awesome: {
-      name: `Lê Vĩnh Tuyến - Blog's của tôi`,
+      name: `Nguyễn Hồng Cường - Blog's của tôi`,
       description:
         'Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...',
       project: {
@@ -21,7 +21,7 @@ export default defineNuxtSchema({
           year: 2023,
         },
         welcome: {
-          title: `Lê Vĩnh Tuyến - Blog's của tôi`,
+          title: `Nguyễn Hồng Cường - Blog's của tôi`,
           disableInfoReplaceIndexInWelcomePage: true,
         },
       },
@@ -29,7 +29,7 @@ export default defineNuxtSchema({
         name: 'TuyenLe',
         links: {
           github: 'https://github.com/levinhtuyen/myblog',
-          website: 'https://tuyenleblog.tech',
+          website: 'https://cuongnh28.work',
         },
       },
     } as NuxtAwesomeAppConfig,

@@ -2,10 +2,10 @@
   "schema1": {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "https://tuyenleblog.tech/",
+    "url": "https://cuongnh28.work/",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://tuyenleblog.tech/searchresults?q=${search_term_string}",
+      "target": "https://cuongnh28.work/searchresults?q=${search_term_string}",
       "query-input": "required name=search_term_string"
     }
   },
@@ -13,7 +13,7 @@
     "@context": "http://schema.org",
     "@type": "Organization",
     "@id": "kg:/g/11vcl7mn3f",
-    "url": "https://tuyenleblog.tech/",
+    "url": "https://cuongnh28.work/",
     "mainentityofpage": "https://www.google.com/search?q=levinhtuyen&kponly=&kgmid=/g/11vcl7mn3f",
     "alternatename": [
       "levinhtuyen",
@@ -29,9 +29,9 @@
       "tuyenle portfolio"
     ],
     "actionableFeedbackPolicy": "",
-    "award": "Lê Vĩnh Tuyến - Blog's của tôi",
-    "disambiguatingdescription": "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
-    "slogan": "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+    "award": "Nguyễn Hồng Cường - Blog's của tôi",
+    "disambiguatingdescription": "Nguyễn Hồng Cường - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+    "slogan": "Nguyễn Hồng Cường - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
     "foundingDate": "2024-06-01",
     "numberOfEmployees": {
       "@type": "QuantitativeValue",
@@ -49,7 +49,7 @@
       "https://en.wikipedia.org/wiki/Real_estate",
       "https://en.wikipedia.org/wiki/Boarding_house"
     ],
-    "logo": "https://tuyenleblog.tech/logo.png",
+    "logo": "https://cuongnh28.work/logo.jpg",
     "email": "tuyenleblog@gmail.com",
     "address": {
       "@type": "PostalAddress",
@@ -59,14 +59,14 @@
       "postalCode": "72100",
       "streetAddress": ""
     },
-    "description": "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+    "description": "Nguyễn Hồng Cường - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
     "name": "levinhtuyen",
     "telephone": "",
     "potentialAction": {
       "@type": "SubscribeAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://tuyenleblog.tech",
+        "urlTemplate": "https://cuongnh28.work",
         "inLanguage": "vn",
         "actionPlatform": [
           "http://schema.org/DesktopWebPlatform",

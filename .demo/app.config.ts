@@ -1,13 +1,13 @@
 export default defineAppConfig({
   awesome: {
-    name: `Lê Vĩnh Tuyến - Blog's của tôi`,
+    name: `Nguyễn Hồng Cường - Blog's của tôi`,
     description:
       'Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...',
     author: {
       name: 'viandwi24',
       links: {
         github: 'https://github.com/levinhtuyen/myblog',
-        website: 'https://tuyenleblog.tech',
+        website: 'https://cuongnh28.work',
       },
     },
     layout: {

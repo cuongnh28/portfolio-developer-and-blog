@@ -4,7 +4,7 @@ const $screen = useAwesomeScreen()
 const nuxtApp = useNuxtApp()
 const route = useRoute()
 const titlesText = computed<string[]>(() =>
-  'Lê Vĩnh Tuyến'
+  'Nguyễn Hồng Cường'
     .replaceAll('&nbsp;', '[space]')
     .split(' ')
     .map((item: any) => item.replaceAll('[space]', ' ')),
@@ -57,7 +57,7 @@ watch(route.name, () => {
             <NuxtLink
               aria-current="page"
               tag="a"
-              alt="Lê Vĩnh Tuyến - Blog's của tôi"
+              alt="Nguyễn Hồng Cường - Blog's của tôi"
               to="/"
               class="router-link-active router-link-exact-active group hover:text-slate-900 flex items-center transition-all duration-200 dark:hover:text-slate-100"
             >
@@ -111,7 +111,7 @@ watch(route.name, () => {
                     aria-current="page"
                     tag="a"
                     to="/feel"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
                     class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300 font-semibold"
                     :class="
                       isActive === 'feel' || isActive === 'feel-slug'
@@ -126,7 +126,7 @@ watch(route.name, () => {
                   <NuxtLink
                     aria-current="page"
                     tag="a"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
                     to="/post"
                     class="router-link-active router-link-exact-active group text-sm hover:text-sky-600 flex items-center transition-all duration-200 dark:hover:text-sky-300 font-semibold"
                     :class="
@@ -199,8 +199,8 @@ watch(route.name, () => {
           <li class="border-t border-t-gray-100 dark:border-t-slate-800">
             <a
               href="/feel"
-              alt="Lê Vĩnh Tuyến - Blog's của tôi"
-              name="Lê Vĩnh Tuyến - Blog's của tôi"
+              alt="Nguyễn Hồng Cường - Blog's của tôi"
+              name="Nguyễn Hồng Cường - Blog's của tôi"
               class="block py-3 text-sm"
               >My story</a
             >
@@ -208,8 +208,8 @@ watch(route.name, () => {
           <li class="border-t border-t-gray-100 dark:border-t-slate-800">
             <a
               href="/post"
-              alt="Lê Vĩnh Tuyến - Blog's của tôi"
-              name="Lê Vĩnh Tuyến - Blog's của tôi"
+              alt="Nguyễn Hồng Cường - Blog's của tôi"
+              name="Nguyễn Hồng Cường - Blog's của tôi"
               class="block py-3 text-sm"
               >Blog</a
             >

@@ -3,16 +3,16 @@
 import { reactive, computed } from 'vue'
 export const useMetaSeoIndex = () => {
   const siteData = reactive({
-    title: 'Lê Vĩnh Tuyến - Portfolio developer',
+    title: 'Nguyễn Hồng Cường - Portfolio developer',
     description:
-      "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
-    content: "Lê Vĩnh Tuyến - Blog's của tôi",
-    ogTitle: 'Lê Vĩnh Tuyến - Portfolio developer',
+      "Nguyễn Hồng Cường - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+    content: "Nguyễn Hồng Cường - Blog's của tôi",
+    ogTitle: 'Nguyễn Hồng Cường - Portfolio developer',
     ogDescription:
-      "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
-    ogImage: 'https://tuyenleblog.tech/logo.png',
+      "Nguyễn Hồng Cường - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+    ogImage: 'https://cuongnh28.work/logo.jpg',
     ogType: 'article',
-    ogLink: 'https://tuyenleblog.tech/',
+    ogLink: 'https://cuongnh28.work/',
     robots: 'index, follow',
     ogImageWidth: '1200',
     ogSideName: 'tuyenleblog.tech',
@@ -26,11 +26,11 @@ export const useMetaSeoIndex = () => {
       {
         name: 'description',
         content:
-          "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+          "Nguyễn Hồng Cường - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
       },
       {
         property: 'og:title',
-        content: "Lê Vĩnh Tuyến - Blog's của tôi",
+        content: "Nguyễn Hồng Cường - Blog's của tôi",
       },
       {
         property: 'og:url',
@@ -43,12 +43,12 @@ export const useMetaSeoIndex = () => {
       {
         property: 'og:description',
         content:
-          "Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
+          "Nguyễn Hồng Cường - Blog's của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...",
       },
 
       {
         property: 'og:image',
-        content: 'https://tuyenleblog.tech/logo.png',
+        content: 'https://cuongnh28.work/logo.jpg',
       },
       {
         name: 'robots',
@@ -73,7 +73,7 @@ export const useMetaSeoIndex = () => {
     ],
 
     link: [
-      { rel: 'canonical', href: 'https://tuyenleblog.tech', id: 'canonical' },
+      { rel: 'canonical', href: 'https://cuongnh28.work', id: 'canonical' },
     ],
   })
   return useHead

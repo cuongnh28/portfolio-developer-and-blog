@@ -3,19 +3,19 @@ import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
 // compiler micro
 definePageMeta({ layout: 'page' })
 useHead({
-  title: `Lê Vĩnh Tuyến - Chuyện của tôi`,
+  title: `Nguyễn Hồng Cường - Chuyện của tôi`,
   meta: [
     {
       name: 'description',
-      content: `Lê Vĩnh Tuyến - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+      content: `Nguyễn Hồng Cường - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     },
     {
       property: 'og:title',
-      content: `Lê Vĩnh Tuyến - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+      content: `Nguyễn Hồng Cường - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     },
     {
       property: 'og:url',
-      content: computed(() => 'https://tuyenleblog.tech/post'),
+      content: computed(() => 'https://cuongnh28.work/post'),
     },
     {
       property: 'og:type',
@@ -23,11 +23,11 @@ useHead({
     },
     {
       property: 'og:description',
-      content: `Lê Vĩnh Tuyến - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
+      content: `Nguyễn Hồng Cường - Chuyện của tôi - Để chút thương gửi vào trong gió, để chút buồn gửi vào trong tim...`,
     },
     {
       property: 'og:image',
-      content: 'https://tuyenleblog.tech/logo.png',
+      content: 'https://cuongnh28.work/logo.jpg',
     },
     {
       name: 'robots',
@@ -52,7 +52,7 @@ useHead({
   ],
 
   link: [
-    { rel: 'canonical', href: 'https://tuyenleblog.tech', id: 'canonical' },
+    { rel: 'canonical', href: 'https://cuongnh28.work', id: 'canonical' },
   ],
 })
 // query

@@ -8,3 +8,12 @@ node_modules
 dist
 .DS_Store
 run.md
+/.idea/.gitignore
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/modules.xml
+/package-lock.json
+/.idea/portfolio-developer-and-blog.iml
+/.idea/codeStyles/Project.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/yarn.lock

@@ -3,11 +3,11 @@ import { ref } from 'vue'
 
 const { current } = useAwesomeScreen()
 
-const phrases = [`I'm Lê Vĩnh Tuyến`, `I learn, I develop...`]
+const phrases = [`I'm Nguyễn Hồng Cường`, `I learn, I develop...`]
 const router = useRouter()
 const currentPhraseIndex = ref(0)
 const currentCharacterIndex = ref(0)
-const currentPhrase = ref<string>(`I'm Lê Vĩnh Tuyến`)
+const currentPhrase = ref<string>(`I'm Nguyễn Hồng Cường`)
 const isDeleting = ref(false)
 
 function loop() {
@@ -104,7 +104,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     <p>
                       A
                       <strong class="text-slate-700 dark:text-slate-300"
-                        >Front-End Developer</strong
+                        >Software Engineer</strong
                       >
                     </p>
                     <p
@@ -117,7 +117,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     <p
                       class="text-base md:text-lg font-normal text-gray-700 dark:text-white"
                     >
-                      <i>"- With Small Steps, I Will Go Very Far_"</i>
+                      <i>"I’ll make him an offer he can’t refuse"</i>
                     </p>
                   </div>
                   <!-- Contract -->
@@ -130,10 +130,10 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           tag="a"
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
+                          alt="Nguyễn Hồng Cường - Blog's của tôi"
+                          name="Nguyễn Hồng Cường - Blog's của tôi"
                           rel="noopener noreferrer"
-                          to="mailto:levinhtuyen210@gmail.com"
+                          to="mailto:hongcuongcl98@gmail.com"
                           ><span class="sr-only">mail</span
                           ><svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -154,9 +154,9 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
                           rel="noopener noreferrer"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
-                          to="https://github.com/levinhtuyen"
+                          alt="Nguyễn Hồng Cường - Blog's của tôi"
+                          name="Nguyễn Hồng Cường - Blog's của tôi"
+                          to="https://github.com/cuongnh28"
                           ><span class="sr-only">github</span
                           ><svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -174,8 +174,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           tag="a"
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           rel="noopener noreferrer"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
+                          alt="Nguyễn Hồng Cường - Blog's của tôi"
+                          name="Nguyễn Hồng Cường - Blog's của tôi"
                           to="#"
                           ><span class="sr-only">x</span
                           ><svg
@@ -194,9 +194,9 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           tag="a"
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           rel="noopener noreferrer"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
-                          to="#"
+                          alt="Nguyễn Hồng Cường - Blog's của tôi"
+                          name="Nguyễn Hồng Cường - Blog's của tôi"
+                          to="https://www.linkedin.com/in/cuongnh28/"
                           ><span class="sr-only">linkedin</span
                           ><svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -213,10 +213,10 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           tag="a"
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
+                          alt="Nguyễn Hồng Cường - Blog's của tôi"
+                          name="Nguyễn Hồng Cường - Blog's của tôi"
                           rel="noopener noreferrer"
-                          to="https://www.facebook.com/profile.php?id=100007906847424"
+                          to="https://www.facebook.com/cuongnh28/"
                           ><span class="sr-only">facebook</span
                           ><svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -234,9 +234,9 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           class="text-sm text-gray-500 transition hover:text-gray-600"
                           target="_blank"
                           rel="noopener noreferrer"
-                          name="Lê Vĩnh Tuyến - Blog's của tôi"
-                          alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                          to="https://www.youtube.com/@ngaodusonthuy3000"
+                          name="Nguyễn Hồng Cường - Blog's của tôi"
+                          alt="Nguyễn Hồng Cường - Blog's của tôi"
+                          to="https://www.youtube.com/@cuongnguyenhong9898"
                           ><span class="sr-only">youtube</span
                           ><svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -267,12 +267,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#61DAFB]"
                           >
-                            <!-- Vue.js SVG -->
+                            <!-- Java SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/vuejs.svg"
-                              alt="vuejs"
+                              src="/svg/java-logo-svgrepo-com.svg"
+                              alt="java"
                             />
                           </div>
                         </li>
@@ -286,12 +286,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#007ACC]"
                           >
-                            <!-- Nuxt JS SVG -->
+                            <!-- Python SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/nuxtjs.svg"
-                              alt="nuxtjs"
+                              src="/svg/python-svgrepo-com.svg"
+                              alt="python"
                             />
                           </div>
                         </li>
@@ -304,13 +304,13 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#3178C6]"
                           >
-                            <!-- Taiwin icon -->
+                            <!-- Spring icon -->
 
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/tailwindcss.svg"
-                              alt="tailwindcss"
+                              src="/svg/spring-icon-svgrepo-com.svg"
+                              alt="spring"
                             />
                           </div>
                         </li>
@@ -323,12 +323,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#61DAFB]"
                           >
-                            <!-- Npm icon -->
+                            <!-- Kafka icon -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/npm.svg"
-                              alt="Npm"
+                              src="/svg/kafka-svgrepo-com.svg"
+                              alt="kafka"
                             />
                           </div>
                         </li>
@@ -341,12 +341,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#06B6D4]"
                           >
-                            <!-- Figma SVG -->
+                            <!-- Linux SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/figma.svg"
-                              alt="Figma"
+                              src="/svg/linux-svgrepo-com.svg"
+                              alt="linux"
                             />
                           </div>
                         </li>
@@ -359,13 +359,31 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#0055FF]"
                           >
-                            <!-- Firebase SVG -->
+                            <!-- Git SVG -->
 
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/firebase.svg"
-                              alt="firebase"
+                              src="/svg/git.svg"
+                              alt="git"
+                            />
+                          </div>
+                        </li>
+                        <li style="opacity: 1; transform: none">
+                          <div
+                            class="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"
+                          ></div>
+                        </li>
+                        <li style="opacity: 1; transform: none">
+                          <div
+                            class="transition duration-200 hover:text-[#61DAFB]"
+                          >
+                            <!-- DrawIO SVG -->
+                            <img
+                              loading="lazy"
+                              class="h-6 w-6"
+                              src="/svg/drawio-svgrepo-com.svg"
+                              alt="drawio"
                             />
                           </div>
                         </li>
@@ -378,12 +396,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#000000] dark:hover:text-[#FFFFFF]"
                           >
-                            <!-- Git SVG -->
+                            <!-- IntelliJ SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/git.svg"
-                              alt="GIT"
+                              src="/svg/intellij-idea-svgrepo-com.svg"
+                              alt="intellij"
                             />
                           </div>
                         </li>
@@ -396,12 +414,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#007ACC]"
                           >
-                            <!-- JavaScript SVG -->
+                            <!-- VsCode SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/javascript.svg"
-                              alt="JavaScript"
+                              src="/svg/vscode.svg"
+                              alt="vscode"
                             />
                           </div>
                         </li>
@@ -432,11 +450,11 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#007ACC]"
                           >
-                            <!-- Laravel SVG -->
+                            <!-- PostGres SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/laravel.svg"
+                              src="/svg/postgresql-svgrepo-com.svg"
                               alt="Laravel"
                             />
                           </div>
@@ -450,12 +468,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#007ACC]"
                           >
-                            <!-- Node.js SVG -->
+                            <!-- MySQL SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/nodejs.svg"
-                              alt="Nodejs"
+                              src="/svg/mysql-svgrepo-com.svg"
+                              alt="mysql"
                             />
                           </div>
                         </li>
@@ -488,12 +506,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#007ACC]"
                           >
-                            <!-- Slack SVG -->
+                            <!-- Elastic SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/slack.svg"
-                              alt="Slack"
+                              src="/svg/elastic-svgrepo-com.svg"
+                              alt="elastic"
                             />
                           </div>
                         </li>
@@ -506,12 +524,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#007ACC]"
                           >
-                            <!-- TypeScript SVG -->
+                            <!-- KongA SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/typescript.svg"
-                              alt="TypeScript"
+                              src="/svg/kong-svgrepo-com.svg"
+                              alt="kong"
                             />
                           </div>
                         </li>
@@ -524,12 +542,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#007ACC]"
                           >
-                            <!-- Vite.js SVG -->
+                            <!-- Docker -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/vitejs.svg"
-                              alt="Vitejs"
+                              src="/svg/docker-svgrepo-com.svg"
+                              alt="docker"
                             />
                           </div>
                         </li>
@@ -542,12 +560,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#007ACC]"
                           >
-                            <!-- Visual Studio Code -->
+                            <!-- K8s-->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/vscode.svg"
-                              alt="vscode"
+                              src="/svg/kubernetes-svgrepo-com.svg"
+                              alt="k8s"
                             />
                           </div>
                         </li>
@@ -560,12 +578,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#007ACC]"
                           >
-                            <!-- Yarn-->
+                            <!-- Jenkins SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/yarn.svg"
-                              alt="yarn"
+                              src="/svg/jenkins-svgrepo-com.svg"
+                              alt="jenkins"
                             />
                           </div>
                         </li>
@@ -578,48 +596,12 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                           <div
                             class="transition duration-200 hover:text-[#007ACC]"
                           >
-                            <!-- Quasar SVG -->
+                            <!-- GitlabCI SVG -->
                             <img
                               loading="lazy"
                               class="h-6 w-6"
-                              src="/svg/quasar.svg"
-                              alt="Quasar"
-                            />
-                          </div>
-                        </li>
-                        <li style="opacity: 1; transform: none">
-                          <div
-                            class="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"
-                          ></div>
-                        </li>
-                        <li style="opacity: 1; transform: none">
-                          <div
-                            class="transition duration-200 hover:text-[#007ACC]"
-                          >
-                            <!-- HTML5 SVG -->
-                            <img
-                              loading="lazy"
-                              class="h-6 w-6"
-                              src="/svg/html5.svg"
-                              alt="html5"
-                            />
-                          </div>
-                        </li>
-                        <li style="opacity: 1; transform: none">
-                          <div
-                            class="h-3 w-[1px] bg-slate-300 dark:bg-slate-700"
-                          ></div>
-                        </li>
-                        <li style="opacity: 1; transform: none">
-                          <div
-                            class="transition duration-200 hover:text-[#007ACC]"
-                          >
-                            <!-- Adobe Potoshop SVG -->
-                            <img
-                              loading="lazy"
-                              class="h-6 w-6"
-                              src="/svg/adobephotoshop.svg"
-                              alt="adobephotoshop"
+                              src="/svg/gitlab-svgrepo-com.svg"
+                              alt="gitlabCI"
                             />
                           </div>
                         </li>
@@ -680,13 +662,13 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
           </div>
         </div>
       </section>
-      <!-- Journey -->
+      <!-- Working Experience -->
       <section class="content-wrapper pt-16">
         <div class="pb-4 md:pb-12">
           <h2
             class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
           >
-            Journey
+            Working Experience
           </h2>
         </div>
         <div>
@@ -699,80 +681,56 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                   class="size-3.5 text-blue-800 dark:text-blue-300"
                   loading="lazy"
                   src="/svg/suitcase.svg"
-                  alt="adobephotoshop"
+                  alt="suitcase"
               /></span>
               <p
                 class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
                 style="font-display: swap"
               >
-                <span>Frontend Developer in Go2Joy</span>
-                <span> (Startup, Product)</span>
-                <!-- <span>• Full-time permanent</span> -->
+                <span>Senior Software Engineer in Fpt Software</span>
               </p>
               <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
               >
-                06/2020 - Now
+                04/2024 - Now
               </p>
               <p class="mb-3 text-base">
                 <span>Create structure project, develop and deploy</span>
-                <span> features within an agile using VueJS, NuxtJS.</span>
+                <span> features within an agile using Java, Spring.</span>
               </p>
               <div class="mt-2 flex flex-wrap">
-                <!-- TypeScript SVG -->
+                <!-- Java SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://www.typescriptlang.org/"
+                    to="#"
                     target="_blank"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="yypeScript"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="java"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
                     >
                       <img
                         loading="lazy"
                         class="size-8 object-contain"
-                        src="/svg/typescript.svg"
-                        alt="typescript"
+                        src="/svg/java-logo-svgrepo-com.svg"
+                        alt="java"
                       /></div
                   ></NuxtLink>
                 </div>
-                <!-- Nuxt JS SVG -->
+                <!-- Spring SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
                     tag="a"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://nuxt.com/"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
-                    target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/nuxtjs.svg"
-                        alt="nuxtjs"
-                      /></div
-                  ></NuxtLink>
-                </div>
-                <!-- Vue.js SVG -->
-                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
-                  <NuxtLink
-                    aria-label="blog-cua-toi"
-                    aria-current="page"
-                    tag="a"
-                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://vuejs.org/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    to="#"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -780,21 +738,43 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                       <img
                         loading="lazy"
                         class="size-8 object-contain"
-                        src="/svg/vuejs.svg"
-                        alt="vuejs"
+                        src="/svg/spring-icon-svgrepo-com.svg"
+                        alt="spring"
                       /></div
                   ></NuxtLink>
                 </div>
-                <!-- Taiwin icon -->
+                <!-- VueJS SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://tailwindcss.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/vuejs.svg"
+                      alt="vuejs"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- MySQL SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -802,12 +782,78 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                       <img
                         loading="lazy"
                         class="size-8 object-contain"
-                        src="/svg/tailwindcss.svg"
-                        alt="tailwindcss"
+                        src="/svg/mysql-svgrepo-com.svg"
+                        alt="mysql"
                       /></div
                   ></NuxtLink>
                 </div>
-                <!-- JavaScript SVG -->
+                <!-- Kafka SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/kafka-svgrepo-com.svg"
+                      alt="kafka"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Docker SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/docker-svgrepo-com.svg"
+                      alt="docker"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- DrawIO SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/drawio-svgrepo-com.svg"
+                      alt="drawio"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Jenkins SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
@@ -815,8 +861,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -824,8 +870,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                       <img
                         loading="lazy"
                         class="size-8 object-contain"
-                        src="/svg/javascript.svg"
-                        alt="javascript"
+                        src="/svg/jenkins-svgrepo-com.svg"
+                        alt="jenkins"
                       /></div
                   ></NuxtLink>
                 </div>
@@ -837,8 +883,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://www.atlassian.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -851,16 +897,16 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                       /></div
                   ></NuxtLink>
                 </div>
-                <!-- Quasar SVG -->
+                <!-- Git SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://quasar.dev/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -868,52 +914,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                       <img
                         loading="lazy"
                         class="size-8 object-contain"
-                        src="/svg/quasar.svg"
-                        alt="quasar"
-                      /></div
-                  ></NuxtLink>
-                </div>
-                <!-- Github SVG -->
-                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
-                  <NuxtLink
-                    aria-label="blog-cua-toi"
-                    aria-current="page"
-                    tag="a"
-                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://github.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
-                    target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/github.svg"
-                        alt="github"
-                      /></div
-                  ></NuxtLink>
-                </div>
-                <!--Adobe Photoshop SVG -->
-                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
-                  <NuxtLink
-                    aria-label="blog-cua-toi"
-                    aria-current="page"
-                    tag="a"
-                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://www.adobe.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
-                    target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/adobephotoshop.svg"
-                        alt="Adobe Photoshop"
+                        src="/svg/git.svg"
+                        alt="git"
                       /></div
                   ></NuxtLink>
                 </div>
@@ -925,8 +927,8 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://www.postman.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
                     ><div
                       class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
@@ -939,50 +941,6 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                       /></div
                   ></NuxtLink>
                 </div>
-                <!--Firebase SVG -->
-                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
-                  <NuxtLink
-                    aria-label="blog-cua-toi"
-                    aria-current="page"
-                    tag="a"
-                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://firebase.google.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
-                    target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/firebase.svg"
-                        alt="firebase"
-                      /></div
-                  ></NuxtLink>
-                </div>
-                <!--GIT SVG -->
-                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
-                  <NuxtLink
-                    aria-label="blog-cua-toi"
-                    aria-current="page"
-                    tag="a"
-                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://firebase.google.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
-                    target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/git.svg"
-                        alt="git"
-                      /></div
-                  ></NuxtLink>
-                </div>
               </div>
             </li>
             <li class="mb-10 ms-6">
@@ -992,26 +950,289 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                   class="size-3.5 text-blue-800 dark:text-blue-300"
                   loading="lazy"
                   src="/svg/suitcase.svg"
-                  alt="adobephotoshop"
+                  alt="suitcase"
               /></span>
               <p
                 class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
                 style="font-display: swap"
               >
-                <span>Frontend Developer in VINAAS</span>
-                <span>(Product, Outsource, Freelancer)</span>
-                <!-- <span>• Full-time permanent</span> -->
+                <span>Backend Team Leader in TopRate</span>
               </p>
               <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
               >
-                06/2017 - 06/2020
+                02/2023 - 03/2024
               </p>
               <p class="mb-3 text-sm">
-                Development web app, landingpage, websites, tool...
+                <span>Build a microservices system from scratch</span>
+                <span> using Agile, Java, and Spring.</span>
               </p>
               <div class="mt-2 flex flex-wrap">
-                <!-- JavaScript SVG -->
+                <!-- Java SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    target="_blank"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="java"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/java-logo-svgrepo-com.svg"
+                      alt="java"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Spring SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/spring-icon-svgrepo-com.svg"
+                      alt="spring"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- VueJS SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/vuejs.svg"
+                      alt="vuejs"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- PostGres SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/postgresql-svgrepo-com.svg"
+                      alt="mysql"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Kafka SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/kafka-svgrepo-com.svg"
+                      alt="kafka"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Docker SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/docker-svgrepo-com.svg"
+                      alt="docker"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Elastic SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/elastic-svgrepo-com.svg"
+                      alt="elastic"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Firebase SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/firebase.svg"
+                      alt="firebase"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- K8s SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/kubernetes-svgrepo-com.svg"
+                      alt="kubernetes"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- KongA SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/kong-svgrepo-com.svg"
+                      alt="konga"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- DrawIO SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/drawio-svgrepo-com.svg"
+                      alt="drawio"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Docker SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/docker-svgrepo-com.svg"
+                      alt="docker"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- GitlabCI SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
@@ -1019,130 +1240,62 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
                     to="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/javascript.svg"
-                        alt="javascript"
-                      /></div
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/gitlab-svgrepo-com.svg"
+                      alt="gitlab"
+                    /></div
                   ></NuxtLink>
                 </div>
-                <!-- Vue.js SVG -->
+                <!-- Jira SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://vuejs.org/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    to="https://www.atlassian.com/"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/vuejs.svg"
-                        alt="vuejs"
-                      /></div
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/jira.svg"
+                      alt="jira"
+                    /></div
                   ></NuxtLink>
                 </div>
-                <!-- HTML5 SVG -->
+                <!-- Grafana SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
                     aria-label="blog-cua-toi"
                     aria-current="page"
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://www.w3schools.com/html/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/html5.svg"
-                        alt="html5"
-                      /></div
-                  ></NuxtLink>
-                </div>
-                <!-- Slack SVG -->
-                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
-                  <NuxtLink
-                    aria-label="blog-cua-toi"
-                    aria-current="page"
-                    tag="a"
-                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://slack.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
-                    target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/slack.svg"
-                        alt="slack"
-                      /></div
-                  ></NuxtLink>
-                </div>
-
-                <!-- Gitlab icon -->
-                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
-                  <NuxtLink
-                    aria-label="blog-cua-toi"
-                    aria-current="page"
-                    tag="a"
-                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://about.gitlab.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
-                    target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/gitlab.svg"
-                        alt="gitlab"
-                      /></div
-                  ></NuxtLink>
-                </div>
-
-                <!-- CSS3 SVG -->
-                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
-                  <NuxtLink
-                    aria-label="blog-cua-toi"
-                    aria-current="page"
-                    tag="a"
-                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://www.w3schools.com/css/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
-                    target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/css3.svg"
-                        alt="css3"
-                      /></div
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/grafana-svgrepo-com.svg"
+                      alt="grafana"
+                    /></div
                   ></NuxtLink>
                 </div>
                 <!-- Git SVG -->
@@ -1152,19 +1305,401 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     aria-current="page"
                     tag="a"
                     class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="https://git-scm.com/"
-                    alt="Lê Vĩnh Tuyến - Blog's của tôi"
-                    name="Lê Vĩnh Tuyến - Blog's của tôi"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/git.svg"
-                        alt="git"
-                      /></div
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/git.svg"
+                      alt="git"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!--Postman SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.postman.com/"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/postman.svg"
+                      alt="Postman"
+                    /></div
+                  ></NuxtLink>
+                </div>
+              </div>
+            </li>
+            <li class="mb-10 ms-6">
+              <span
+                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+              ><img
+                class="size-3.5 text-blue-800 dark:text-blue-300"
+                loading="lazy"
+                src="/svg/suitcase.svg"
+                alt="suitcase"
+              /></span>
+              <p
+                class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                style="font-display: swap"
+              >
+                <span>Java Developer in Synergix Technologies Pte Ltd</span>
+              </p>
+              <p
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+              >
+                04/2021 - 02/2023
+              </p>
+              <p class="mb-3 text-sm">
+                <span>Build an ERP system using Java2EE</span>
+              </p>
+              <div class="mt-2 flex flex-wrap">
+                <!-- Java SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    target="_blank"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="java"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/java-logo-svgrepo-com.svg"
+                      alt="java"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- PostGres SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/postgresql-svgrepo-com.svg"
+                      alt="mysql"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- DrawIO SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/drawio-svgrepo-com.svg"
+                      alt="drawio"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- TortoiseSVN SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/tortoisesvn.svg"
+                      alt="gitlab"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Jenkins SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    target="_blank"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="java"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/jenkins-svgrepo-com.svg"
+                      alt="jenkins"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Jira SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.atlassian.com/"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/jira.svg"
+                      alt="jira"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!--Postman SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.postman.com/"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/postman.svg"
+                      alt="Postman"
+                    /></div
+                  ></NuxtLink>
+                </div>
+              </div>
+            </li>
+            <li class="mb-10 ms-6">
+              <span
+                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+              ><img
+                class="size-3.5 text-blue-800 dark:text-blue-300"
+                loading="lazy"
+                src="/svg/suitcase.svg"
+                alt="suitcase"
+              /></span>
+              <p
+                class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                style="font-display: swap"
+              >
+                <span>Viettel Cyber Security</span>
+              </p>
+              <p
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+              >
+                07/2020 - 03/2021
+              </p>
+              <p class="mb-3 text-sm">
+                <span>Learn, learn, and learn ...</span>
+              </p>
+              <div class="mt-2 flex flex-wrap">
+                <!-- Java SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    target="_blank"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="java"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/java-logo-svgrepo-com.svg"
+                      alt="java"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Python SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/python-svgrepo-com.svg"
+                      alt="python"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Laravel SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/laravel.svg"
+                      alt="laravel"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- Docker SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/docker-svgrepo-com.svg"
+                      alt="docker"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- MongoDB SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/mongodb-svgrepo-com.svg"
+                      alt="mongodb"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!-- BurpSuite SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="#"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/burpsuite-security-software-svgrepo-com.svg"
+                      alt="burpsuite"
+                    /></div
+                  ></NuxtLink>
+                </div>
+                <!--Postman SVG -->
+                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
+                  <NuxtLink
+                    aria-label="blog-cua-toi"
+                    aria-current="page"
+                    tag="a"
+                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
+                    to="https://www.postman.com/"
+                    alt="Nguyễn Hồng Cường - Blog's của tôi"
+                    name="Nguyễn Hồng Cường - Blog's của tôi"
+                    target="_blank"
+                  ><div
+                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                  >
+                    <img
+                      loading="lazy"
+                      class="size-8 object-contain"
+                      src="/svg/postman.svg"
+                      alt="Postman"
+                    /></div
                   ></NuxtLink>
                 </div>
               </div>
@@ -1181,154 +1716,16 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
               <p
                 class="mb-1 flex items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
               >
-                University of Science - VNUHCM - Hồ Chí Minh
+                Posts and Telecommunications Institute of Technology - Hanoi
               </p>
               <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
               >
-                09/2014 - 05/2017
+                08/2016 - 12/2021
               </p>
-              <p class="mb-3 text-sm">Learn, learn, and learn ...</p>
+              <p class="mb-3 text-sm">Graduated with a degree in Information Technology</p>
             </li>
           </ul>
-        </div>
-      </section>
-      <!-- Projects -->
-
-      <section class="text-gray-600 body-font">
-        <div class="pb-4 md:pb-12">
-          <h2
-            class="text-center text-2xl font-bold text-foreground md:text-4xl lg:text-6xl"
-          >
-            Projects
-          </h2>
-        </div>
-        <div class="container px-5 py-8 mx-auto">
-          <div class="flex flex-wrap -m-4">
-            <div class="p-4 md:w-1/3">
-              <div
-                class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden"
-              >
-                <img
-                  width="372"
-                  height="211"
-                  loading="lazy"
-                  class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                  src="/images/project-1.webp"
-                  alt="blog"
-                  @click="redirectUrl('https://downtik.app', true)"
-                />
-                <div class="p-6">
-                  <h2
-                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
-                  >
-                    Web Tool
-                  </h2>
-                  <h1
-                    class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
-                  >
-                    Tiktok Video Download
-                  </h1>
-                  <p class="leading-relaxed mb-3 line-clamp-3">
-                    MusicallyDown, a widely-used online tool, enables you to
-                    easily download TikTok videos without any watermarks.
-                    Recognized as one of the top TikTok video downloaders, it
-                    allows you to save your favorite videos in high-quality MP4
-                    format with HD resolution, ensuring a premium viewing
-                    experience.
-                  </p>
-                  <div class="flex items-center flex-wrap">
-                    <button
-                      class="bg-gradient-to-r from-cyan-400 text-white to-blue-400 hover:scale-105 drop-shadow-md shadow-cla-blue px-4 py-1 rounded-lg"
-                      @click="redirectUrl('https://downtik.app', true)"
-                    >
-                      learn more
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="p-4 md:w-1/3">
-              <div
-                class="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden"
-              >
-                <img
-                  loading="lazy"
-                  width="372"
-                  height="211"
-                  class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                  src="/images/project-2.webp"
-                  alt="blog"
-                  @click="redirectUrl('https://go2joy.vn', true)"
-                />
-                <div class="p-6">
-                  <h2
-                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
-                  >
-                    Website
-                  </h2>
-                  <h1
-                    class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
-                  >
-                    Go2Joy - Hourly booking platform
-                  </h1>
-                  <p class="leading-relaxed mb-3 line-clamp-3">
-                    Flexible and simple hotel booking with Go2Joy. More than
-                    10,000 good-priced hotels are waiting for you to discover.
-                  </p>
-                  <div class="flex items-center flex-wrap">
-                    <button
-                      class="bg-gradient-to-r from-orange-300 to-amber-400 text-white hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg"
-                      @click="redirectUrl('https://go2joy.vn', true)"
-                    >
-                      learn more
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="p-4 md:w-1/3">
-              <div
-                class="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden"
-              >
-                <img
-                  loading="lazy"
-                  width="372"
-                  height="211"
-                  class="lg:h-48 cursor-pointer md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                  src="/images/project-3.webp"
-                  alt="blog"
-                  @click="redirectUrl('/project/my-portfolio-and-blog', false)"
-                />
-                <div class="p-6">
-                  <h2
-                    class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1"
-                  >
-                    Website
-                  </h2>
-                  <h1
-                    class="title-font text-lg font-medium text-gray-600 mb-3 line-clamp-1"
-                  >
-                    My portfolio and blog
-                  </h1>
-                  <p class="leading-relaxed mb-3 line-clamp-3">
-                    Lê Vĩnh Tuyến - Blog's của tôi - Để chút thương gửi vào
-                    trong gió, để chút buồn gửi vào trong tim...
-                  </p>
-                  <div class="flex items-center flex-wrap">
-                    <button
-                      class="bg-gradient-to-r from-fuchsia-300 to-pink-400 text-white hover:scale-105 shadow-cla-blue px-4 py-1 rounded-lg"
-                      @click="
-                        redirectUrl('/project/my-portfolio-and-blog', false)
-                      "
-                    >
-                      learn more
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </LayoutPageSection>
