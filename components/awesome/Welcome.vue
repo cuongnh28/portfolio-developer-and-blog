@@ -1061,28 +1061,6 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                       /></div
                   ></NuxtLink>
                 </div>
-                <!-- Docker SVG -->
-                <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
-                  <NuxtLink
-                    aria-label="blog-cua-toi"
-                    aria-current="page"
-                    tag="a"
-                    class="text-black dark:text-white m-0 rounded-bl-none rounded-br-3xl rounded-tl-3xl rounded-tr-none p-0 shadow-md"
-                    to="#"
-                    alt="Nguyễn Hồng Cường - Blog's của tôi"
-                    name="Nguyễn Hồng Cường - Blog's của tôi"
-                    target="_blank"
-                    ><div
-                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                    >
-                      <img
-                        loading="lazy"
-                        class="size-8 object-contain"
-                        src="/svg/docker-svgrepo-com.svg"
-                        alt="docker"
-                      /></div
-                  ></NuxtLink>
-                </div>
                 <!-- Elastic SVG -->
                 <div class="mr-2 mb-2 size-max transition-all hover:scale-105">
                   <NuxtLink
