@@ -609,23 +609,6 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     </div>
                   </div>
                 </div>
-                <ClientOnly>
-                  <model-viewer
-                    class="col-span-1 custome-model-me"
-                    src="/images/model.glb"
-                    loading="eager"
-                    camera-controls
-                    autoplay
-                    touch-action=""
-                    style="height: 340px"
-                    disable-zoom
-                    interaction-prompt="none"
-                    animation-name="Running"
-                    scale="0.52 0.52 0.52"
-                    alt="avatar me"
-                  >
-                  </model-viewer>
-                </ClientOnly>
               </div>
             </div>
 
@@ -754,15 +737,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/vuejs.svg"
-                      alt="vuejs"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/vuejs.svg"
+                        alt="vuejs"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- MySQL SVG -->
@@ -798,15 +781,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/kafka-svgrepo-com.svg"
-                      alt="kafka"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/kafka-svgrepo-com.svg"
+                        alt="kafka"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Docker SVG -->
@@ -820,15 +803,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/docker-svgrepo-com.svg"
-                      alt="docker"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/docker-svgrepo-com.svg"
+                        alt="docker"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- DrawIO SVG -->
@@ -842,15 +825,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/drawio-svgrepo-com.svg"
-                      alt="drawio"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/drawio-svgrepo-com.svg"
+                        alt="drawio"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Jenkins SVG -->
@@ -979,15 +962,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     target="_blank"
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="java"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/java-logo-svgrepo-com.svg"
-                      alt="java"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/java-logo-svgrepo-com.svg"
+                        alt="java"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Spring SVG -->
@@ -1001,15 +984,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     to="#"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/spring-icon-svgrepo-com.svg"
-                      alt="spring"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/spring-icon-svgrepo-com.svg"
+                        alt="spring"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- VueJS SVG -->
@@ -1023,15 +1006,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/vuejs.svg"
-                      alt="vuejs"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/vuejs.svg"
+                        alt="vuejs"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- PostGres SVG -->
@@ -1045,15 +1028,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/postgresql-svgrepo-com.svg"
-                      alt="mysql"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/postgresql-svgrepo-com.svg"
+                        alt="mysql"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Kafka SVG -->
@@ -1067,15 +1050,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/kafka-svgrepo-com.svg"
-                      alt="kafka"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/kafka-svgrepo-com.svg"
+                        alt="kafka"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Docker SVG -->
@@ -1089,15 +1072,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/docker-svgrepo-com.svg"
-                      alt="docker"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/docker-svgrepo-com.svg"
+                        alt="docker"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Elastic SVG -->
@@ -1111,15 +1094,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/elastic-svgrepo-com.svg"
-                      alt="elastic"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/elastic-svgrepo-com.svg"
+                        alt="elastic"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Firebase SVG -->
@@ -1133,15 +1116,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/firebase.svg"
-                      alt="firebase"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/firebase.svg"
+                        alt="firebase"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- K8s SVG -->
@@ -1155,15 +1138,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/kubernetes-svgrepo-com.svg"
-                      alt="kubernetes"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/kubernetes-svgrepo-com.svg"
+                        alt="kubernetes"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- KongA SVG -->
@@ -1177,15 +1160,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/kong-svgrepo-com.svg"
-                      alt="konga"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/kong-svgrepo-com.svg"
+                        alt="konga"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- DrawIO SVG -->
@@ -1199,15 +1182,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/drawio-svgrepo-com.svg"
-                      alt="drawio"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/drawio-svgrepo-com.svg"
+                        alt="drawio"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Docker SVG -->
@@ -1221,15 +1204,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/docker-svgrepo-com.svg"
-                      alt="docker"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/docker-svgrepo-com.svg"
+                        alt="docker"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- GitlabCI SVG -->
@@ -1243,15 +1226,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/gitlab-svgrepo-com.svg"
-                      alt="gitlab"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/gitlab-svgrepo-com.svg"
+                        alt="gitlab"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Jira SVG -->
@@ -1265,15 +1248,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/jira.svg"
-                      alt="jira"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/jira.svg"
+                        alt="jira"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Grafana SVG -->
@@ -1287,15 +1270,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/grafana-svgrepo-com.svg"
-                      alt="grafana"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/grafana-svgrepo-com.svg"
+                        alt="grafana"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Git SVG -->
@@ -1309,15 +1292,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/git.svg"
-                      alt="git"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/git.svg"
+                        alt="git"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!--Postman SVG -->
@@ -1331,15 +1314,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/postman.svg"
-                      alt="Postman"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/postman.svg"
+                        alt="Postman"
+                      /></div
                   ></NuxtLink>
                 </div>
               </div>
@@ -1347,11 +1330,11 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
             <li class="mb-10 ms-6">
               <span
                 class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
-              ><img
-                class="size-3.5 text-blue-800 dark:text-blue-300"
-                loading="lazy"
-                src="/svg/suitcase.svg"
-                alt="suitcase"
+                ><img
+                  class="size-3.5 text-blue-800 dark:text-blue-300"
+                  loading="lazy"
+                  src="/svg/suitcase.svg"
+                  alt="suitcase"
               /></span>
               <p
                 class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
@@ -1379,15 +1362,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     target="_blank"
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="java"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/java-logo-svgrepo-com.svg"
-                      alt="java"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/java-logo-svgrepo-com.svg"
+                        alt="java"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- PostGres SVG -->
@@ -1401,15 +1384,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/postgresql-svgrepo-com.svg"
-                      alt="mysql"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/postgresql-svgrepo-com.svg"
+                        alt="mysql"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- DrawIO SVG -->
@@ -1423,15 +1406,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/drawio-svgrepo-com.svg"
-                      alt="drawio"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/drawio-svgrepo-com.svg"
+                        alt="drawio"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- TortoiseSVN SVG -->
@@ -1445,15 +1428,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/tortoisesvn.svg"
-                      alt="gitlab"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/tortoisesvn.svg"
+                        alt="gitlab"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Jenkins SVG -->
@@ -1467,15 +1450,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     target="_blank"
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="java"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/jenkins-svgrepo-com.svg"
-                      alt="jenkins"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/jenkins-svgrepo-com.svg"
+                        alt="jenkins"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Jira SVG -->
@@ -1489,15 +1472,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/jira.svg"
-                      alt="jira"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/jira.svg"
+                        alt="jira"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!--Postman SVG -->
@@ -1511,15 +1494,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/postman.svg"
-                      alt="Postman"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/postman.svg"
+                        alt="Postman"
+                      /></div
                   ></NuxtLink>
                 </div>
               </div>
@@ -1527,11 +1510,11 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
             <li class="mb-10 ms-6">
               <span
                 class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
-              ><img
-                class="size-3.5 text-blue-800 dark:text-blue-300"
-                loading="lazy"
-                src="/svg/suitcase.svg"
-                alt="suitcase"
+                ><img
+                  class="size-3.5 text-blue-800 dark:text-blue-300"
+                  loading="lazy"
+                  src="/svg/suitcase.svg"
+                  alt="suitcase"
               /></span>
               <p
                 class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
@@ -1559,15 +1542,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     target="_blank"
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="java"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/java-logo-svgrepo-com.svg"
-                      alt="java"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/java-logo-svgrepo-com.svg"
+                        alt="java"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Python SVG -->
@@ -1581,15 +1564,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/python-svgrepo-com.svg"
-                      alt="python"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/python-svgrepo-com.svg"
+                        alt="python"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Laravel SVG -->
@@ -1603,15 +1586,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/laravel.svg"
-                      alt="laravel"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/laravel.svg"
+                        alt="laravel"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- Docker SVG -->
@@ -1625,15 +1608,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/docker-svgrepo-com.svg"
-                      alt="docker"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/docker-svgrepo-com.svg"
+                        alt="docker"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- MongoDB SVG -->
@@ -1647,15 +1630,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/mongodb-svgrepo-com.svg"
-                      alt="mongodb"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/mongodb-svgrepo-com.svg"
+                        alt="mongodb"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!-- BurpSuite SVG -->
@@ -1669,15 +1652,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/burpsuite-security-software-svgrepo-com.svg"
-                      alt="burpsuite"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/burpsuite-security-software-svgrepo-com.svg"
+                        alt="burpsuite"
+                      /></div
                   ></NuxtLink>
                 </div>
                 <!--Postman SVG -->
@@ -1691,15 +1674,15 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                     alt="Nguyễn Hồng Cường - Blog's của tôi"
                     name="Nguyễn Hồng Cường - Blog's của tôi"
                     target="_blank"
-                  ><div
-                    class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
-                  >
-                    <img
-                      loading="lazy"
-                      class="size-8 object-contain"
-                      src="/svg/postman.svg"
-                      alt="Postman"
-                    /></div
+                    ><div
+                      class="rounded-lg border text-card-foreground shadow-sm bg-white p-2 dark:bg-gray-500"
+                    >
+                      <img
+                        loading="lazy"
+                        class="size-8 object-contain"
+                        src="/svg/postman.svg"
+                        alt="Postman"
+                      /></div
                   ></NuxtLink>
                 </div>
               </div>
@@ -1723,7 +1706,9 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
               >
                 08/2016 - 12/2021
               </p>
-              <p class="mb-3 text-sm">Graduated with a degree in Information Technology</p>
+              <p class="mb-3 text-sm">
+                Graduated with a degree in Information Technology
+              </p>
             </li>
           </ul>
         </div>
