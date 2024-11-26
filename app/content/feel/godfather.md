@@ -1,7 +1,6 @@
 ---
-title: 'GODFATHER: “ĐÀN ÔNG CÒN MONG GÌ HƠN THẾ?”'
-description: 'Vẫn đứng thứ hai trong danh sách 100 phim xuất sắc nhất của Viện phim Mỹ; vẫn đứng thứ hai trong Top 250 phim cao điểm nhất của IDMB. Và tiếp tục được không ít đàn ông gọi tên, khi được hỏi về bộ phim mình yêu thích nhất.
-Rốt cục thì vì sao, “Godfather” lại quyến rũ cánh đàn ông đến thế?'
+title: 'GODFATHER: ĐÀN ÔNG CÒN MONG GÌ HƠN THẾ?'
+description: 'Vẫn đứng thứ hai trong danh sách 100 phim xuất sắc nhất của Viện phim Mỹ; vẫn đứng thứ hai trong Top 250 phim cao điểm nhất của IDMB. Và tiếp tục được không ít đàn ông gọi tên, khi được hỏi về bộ phim mình yêu thích nhất. Rốt cục thì vì sao, Godfather lại quyến rũ cánh đàn ông đến thế?'
 date: '16/11/2024'
 image: '/images/quote.jpg'
 author: '© Nham Hoa'

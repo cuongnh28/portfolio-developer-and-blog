@@ -1,7 +1,6 @@
 ---
 title: 'Sống là một động từ'
-description: 'Phần lớn mọi người đã chết ở tuổi 25, chỉ có điểu đến 75 tuổi mới chôn mà thôi
-(Most people die at 25 and aren’t buried until they’re 75) ―Benjamin Franklin'
+description: 'Phần lớn mọi người đã chết ở tuổi 25, chỉ có điểu đến 75 tuổi mới chôn mà thôi (Most people die at 25 and are not buried until they are 75) ― Benjamin Franklin'
 date: '06/10/2024'
 image: '/images/phuot.jpg'
 author: '© Viet Tran'
