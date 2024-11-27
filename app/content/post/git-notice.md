@@ -10,7 +10,7 @@ Nếu là một lập trình viên, ắt hẳn git là một trong những kỹ 
 
 Thật ra, những lưu ý dưới đây không phải là những điều bắt buộc, bởi dù không có nó, chương trình của bạn vẫn đang được vận hành một cách bình thường. Nhưng, một ứng dụng tốt không đơn thuần ở việc nó còn đang hoạt động được, mà đó còn phải là một ứng dụng có thể đáp ứng được những yêu cầu mới, mở rộng và phát triển trong tương lai. Vậy, những lưu ý dưới đây ảnh hưởng thế nào đến những câu chuyện nói trên, hãy cùng mình đi lần lượt nhé.
 
-<strong> 1. Đặt branch name cần có quy tắc </strong> 
+**1. Đặt branch name cần có quy tắc**
 
 Hồi mới đi làm, khi nhận phát triển tính năng cập nhật thông tin user, mình đã từng để branch name như sau:
 
@@ -21,6 +21,7 @@ Vâng, các bạn có thấy quen không ạ? Đây là một cách đặt branc
 *`feature/AK3D-0128-update-user`*
 
 **Cơ bản thôi, một branch name nên có đủ 3 thành phần chính:**
+
 - Tên branch nên bắt đầu bằng từ `feature/` hoặc `bugfix/` tương ứng với tính năng hoặc sửa lỗi.
 - Sau dấu `/` của prefix (feature/bugfix) nên là mã ticket (ví dụ ở trên là: `AK3D-0128`) -> mục đích rõ ràng, sau này khi sếp yêu cầu chúng ta merge lại phần code mà chúng ta đang làm dở thì chỉ cần tìm branch theo feature mà chúng ta đã làm mà thôi.
 - Kế tiếp nên là summary về tính năng mà chúng ta đang làm -> mục đích là để khi làm việc với nhiều branch cùng lúc chúng ta sẽ tiết kiệm thời gian kiếm branch name nhằm switch.
@@ -29,7 +30,7 @@ Ngoài ra, tên branch nên chỉ được viết thường và sử dụng dấ
 
 ---
 
-<strong>2. Commit message</strong> 
+**2. Commit message**
 
 Bạn đã từng thấy commit nào có dạng: `update user info`, hoặc `add user info` chưa?  
 Nếu đang thấy nó trong dự án của mình, bạn chớ có làm theo, hoặc nếu tốt hơn nữa thì raise issue lên để cả team ngồi lại để có một phương án commit tốt hơn nhé.
@@ -38,8 +39,9 @@ Dù code có đảm bảo SOLID, clear đến đâu, thì việc đọc lại nh
 
 Ví dụ: khi nhận task enhance một tính năng mới với rất nhiều đoạn code logic đã tồn tại, chúng ta luôn cần đặt câu hỏi rằng: đoạn code này đang phục vụ mục đích gì? Lúc này, bên cạnh việc dịch code, thì `git blame` xem ai đã viết đoạn code đó để hỏi là một việc hết sức nên làm, nhưng nếu không may người ấy đã không còn là đồng nghiệp của bạn, hoặc thậm chí … người đó cũng chẳng còn nhớ đến nó là gì 😣. Vâng, và đó là lúc bạn thấy được sức mạnh của một commit tốt là thế nào.
 
-### Tại sao lại như thế? Đây là một commit chuẩn:
-*`feat:AK3D-0128: update user info`*
+Tại sao lại như thế? Đầu tiên, hãy xem commit dưới đây:
+
+*`"feat:AK3D-0128: update user info"`*
 
 Bạn thấy gì không ạ? Vâng, đó lại là mã ticket (`AK3D-0128`) kèm theo tóm tắt nội dung chức năng (`update user info`) chúng ta đang làm. Điều này sẽ thật có ý nghĩa giúp chúng ta xác định được những logic mà tiền bối chúng ta đã thêm vào đến từ yêu cầu cụ thể nào. Tránh việc những câu hỏi mông lung không đáng có, cũng giảm thiểu rủi ro đến những tính năng đã tồn tại trước nay.
 
@@ -51,7 +53,7 @@ Bạn thấy gì không ạ? Vâng, đó lại là mã ticket (`AK3D-0128`) kèm
 
 ---
 
-<strong>3. Squash commit trước khi tạo Pull Request</strong>
+**3. Squash commit trước khi tạo Pull Request**
 
 Squash commit đơn giản là một kỹ thuật giúp gộp nhiều commit lại làm một.
 
