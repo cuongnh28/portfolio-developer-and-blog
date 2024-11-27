@@ -6,22 +6,21 @@ date: '26/11/2024'
 author: '© Nguyen Hong Cuong'
 ---
 
-Nếu là một lập trình viên, ắt hẳn git là một trong những kỹ năng được sử dụng nhiều nhất. Tuy nhiên, trong quá trình làm việc cũng như phỏng vấn ứng viên cho vị trí lập trình, mình lại thấy có khá nhiều vấn đề trong cách một số bạn làm việc với git.
+Git là một công cụ không thể thiếu đối với mỗi lập trình viên. Tuy nhiên, trong suốt hành trình sử dụng nó, nhiều người vẫn gặp phải một số vấn đề tưởng chừng đơn giản nhưng lại ảnh hưởng lớn đến hiệu quả công việc, đặc biệt là khi làm việc nhóm. 
 
-Thật ra, những lưu ý dưới đây không phải là những điều bắt buộc, bởi dù không có nó, chương trình của bạn vẫn đang được vận hành một cách bình thường. Nhưng, một ứng dụng tốt không đơn thuần ở việc nó còn đang hoạt động được, mà đó còn phải là một ứng dụng có thể đáp ứng được những yêu cầu mới, mở rộng và phát triển trong tương lai. Vậy, những lưu ý dưới đây ảnh hưởng thế nào đến những câu chuyện nói trên, hãy cùng mình đi lần lượt nhé.
+Bài viết này sẽ giúp bạn nhận ra những sai lầm phổ biến khi sử dụng Git và làm thế nào để cải thiện quy trình làm việc của mình.
 
-**1. Đặt branch name cần có quy tắc**
+<strong> 1. Đặt branch name cần có quy tắc </strong> 
 
-Hồi mới đi làm, khi nhận phát triển tính năng cập nhật thông tin user, mình đã từng để branch name như sau:
+Hồi mới đi làm, khi nhận nhiệm vụ phát triển tính năng cập nhật thông tin người dùng, mình đã từng đặt tên nhánh như thế này:
 
 *`cuongnh/updateUser`*
 
-Vâng, các bạn có thấy quen không ạ? Đây là một cách đặt branch name khá phổ biến với một số bạn mới, như mình hồi đó. Tuy nhiên, giả sử tính năng mà bạn đang phát triển được sếp thông báo rằng chưa release, code không merge vào nhánh main mà giữ lại ở branch đang phát triển. Mãi một thời gian rất lâu sau đó cần merge vào, thì công cuộc tìm kiếm sẽ thật khó khăn vì ai mà nhớ nổi thứ mình đã làm từ những tuần trước. Vậy, branch name nên đặt theo quy tắc nào? Để mình sửa lại branch-name ở trên nhé, nó nên là:
+Các bạn có thấy quen không? Đây là cách đặt tên nhánh khá phổ biến với những người mới bắt đầu, giống như mình lúc đó. Tuy nhiên, vấn đề nảy sinh khi tính năng mình đang phát triển chưa được release và sếp yêu cầu giữ lại nhánh mà chưa merge vào main. Sau một thời gian dài, khi cần phải thực hiện việc merge lại, thì việc tìm kiếm nhánh đó trở nên vô cùng khó khăn vì ai còn nhớ được những gì đã làm từ mấy tuần trước? Vậy, làm thế nào để đặt tên nhánh một cách rõ ràng, dễ tìm và dễ quản lý hơn? Để mình sửa lại cách đặt tên nhánh trên một chút, nó nên là:
 
 *`feature/AK3D-0128-update-user`*
 
 **Cơ bản thôi, một branch name nên có đủ 3 thành phần chính:**
-
 - Tên branch nên bắt đầu bằng từ `feature/` hoặc `bugfix/` tương ứng với tính năng hoặc sửa lỗi.
 - Sau dấu `/` của prefix (feature/bugfix) nên là mã ticket (ví dụ ở trên là: `AK3D-0128`) -> mục đích rõ ràng, sau này khi sếp yêu cầu chúng ta merge lại phần code mà chúng ta đang làm dở thì chỉ cần tìm branch theo feature mà chúng ta đã làm mà thôi.
 - Kế tiếp nên là summary về tính năng mà chúng ta đang làm -> mục đích là để khi làm việc với nhiều branch cùng lúc chúng ta sẽ tiết kiệm thời gian kiếm branch name nhằm switch.
@@ -30,20 +29,19 @@ Ngoài ra, tên branch nên chỉ được viết thường và sử dụng dấ
 
 ---
 
-**2. Commit message**
+<strong>2. Commit message</strong> 
 
-Bạn đã từng thấy commit nào có dạng: `update user info`, hoặc `add user info` chưa?  
+Bạn đã từng thấy commit nào có dạng: `"update user info"`, hoặc `"add user info"` chưa?  
 Nếu đang thấy nó trong dự án của mình, bạn chớ có làm theo, hoặc nếu tốt hơn nữa thì raise issue lên để cả team ngồi lại để có một phương án commit tốt hơn nhé.
 
 Dù code có đảm bảo SOLID, clear đến đâu, thì việc đọc lại những dòng code đã tồn tại luôn là một thử thách đối với bất kỳ lập trình viên nào.
 
-Ví dụ: khi nhận task enhance một tính năng mới với rất nhiều đoạn code logic đã tồn tại, chúng ta luôn cần đặt câu hỏi rằng: đoạn code này đang phục vụ mục đích gì? Lúc này, bên cạnh việc dịch code, thì `git blame` xem ai đã viết đoạn code đó để hỏi là một việc hết sức nên làm, nhưng nếu không may người ấy đã không còn là đồng nghiệp của bạn, hoặc thậm chí … người đó cũng chẳng còn nhớ đến nó là gì 😣. Vâng, và đó là lúc bạn thấy được sức mạnh của một commit tốt là thế nào.
+Ví dụ, khi bạn nhận được nhiệm vụ cải tiến một tính năng mới nhưng lại phải làm việc với rất nhiều đoạn code logic đã tồn tại, bạn sẽ luôn phải đặt câu hỏi: "Đoạn code này đang phục vụ mục đích gì?" Lúc này, ngoài việc đọc hiểu từng dòng code, thì việc sử dụng công cụ `git blame` để tìm ra người viết đoạn mã đó và hỏi lại họ là điều cực kỳ hữu ích, nhưng nếu không may người ấy đã không còn là đồng nghiệp của bạn, hoặc thậm chí … người đó cũng chẳng còn nhớ đến nó là gì 😣. Chính trong những tình huống như vậy, bạn mới nhận ra giá trị của một commit tốt và có ý nghĩa rõ ràng, giúp bạn và cả đội dễ dàng hiểu và làm việc lại với mã nguồn cũ.
 
-Tại sao lại như thế? Đầu tiên, hãy xem commit dưới đây:
-
+### Tại sao lại như thế? Hãy cùng xem qua một ví dụ commit:
 *`"feat:AK3D-0128: update user info"`*
 
-Bạn thấy gì không ạ? Vâng, đó lại là mã ticket (`AK3D-0128`) kèm theo tóm tắt nội dung chức năng (`update user info`) chúng ta đang làm. Điều này sẽ thật có ý nghĩa giúp chúng ta xác định được những logic mà tiền bối chúng ta đã thêm vào đến từ yêu cầu cụ thể nào. Tránh việc những câu hỏi mông lung không đáng có, cũng giảm thiểu rủi ro đến những tính năng đã tồn tại trước nay.
+Bạn nhận ra điều gì? Đây không chỉ là một dòng commit, mà là một thông tin quý giá. Mã ticket `"AK3D-0128"` cho biết yêu cầu cụ thể nào đang được thực hiện, trong khi phần tóm tắt `"update user info"` mô tả ngắn gọn công việc. Nhờ vậy, khi cần xem lại hoặc điều chỉnh, bạn có thể nhanh chóng xác định mục đích và bối cảnh của đoạn code. Điều này giúp tránh những câu hỏi mơ hồ như "Đoạn logic này để làm gì?", đồng thời giảm thiểu rủi ro khi sửa đổi các tính năng đã tồn tại.
 
 **Đối với một commit message, chúng ta cần chú ý những nội dung như sau:**
 - Đầu tiên, hãy đặt prefix (feat/fix) trước mỗi commit message. Quy tắc khá giống với việc tạo branch code.
@@ -53,13 +51,13 @@ Bạn thấy gì không ạ? Vâng, đó lại là mã ticket (`AK3D-0128`) kèm
 
 ---
 
-**3. Squash commit trước khi tạo Pull Request**
+<strong>3. Squash commit trước khi tạo Pull Request</strong>
 
 Squash commit đơn giản là một kỹ thuật giúp gộp nhiều commit lại làm một.
 
-Chắc hẳn nhiều người trong chúng ta tạo ra commit code mới sau mỗi ngày làm việc, để hạn chế rủi ro mất code khi gặp vấn đề với máy tính của mình. Và khi hoàn thiện tính năng, Unit Test ở phía Local xong xuôi, nếu chúng ta tạo PR với nhiều commit cỡ này, thì nhánh main branch của chúng ta sẽ thật rắc rối, và cũng thừa thãi với nhiều commit như vậy.
+Nhiều lập trình viên có thói quen tạo commit mới sau mỗi ngày làm việc để tránh mất code nếu gặp sự cố với máy tính. Tuy nhiên, khi hoàn thiện tính năng và đã kiểm tra Unit Test cẩn thận trên máy local, nếu bạn tạo Pull Request với hàng loạt commit như vậy, nhánh main sẽ trở nên rối rắm và chứa nhiều commit thừa.
 
-Thay vào đó, hãy squash chúng lại, chỉ để 1 commit duy nhất với ngần ấy code thay đổi, rồi mới tạo Pull Request.
+Thay vào đó, hãy squash tất cả các commit lại thành một trước khi tạo Pull Request. Việc này giúp giữ cho lịch sử commit của main gọn gàng và dễ theo dõi.
 
 Bên cạnh việc main branch có một lịch sử commit đẹp, thì nó cũng làm cho những hậu bối, thậm chí bản thân mình dễ dàng trace lại lịch sử của một đoạn code, hơn là phải `git blame` liên tục để kiểm tra sự thay đổi từ trước khi có đoạn code mới của chúng ta.
 
