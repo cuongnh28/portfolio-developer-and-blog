@@ -3,11 +3,11 @@ import { ref } from 'vue'
 
 const { current } = useAwesomeScreen()
 
-const phrases = [`I'm Nguyễn Hồng Cường`, `I learn, I develop...`]
+const phrases = [`I'm Vito`, `I learn, I develop...`]
 const router = useRouter()
 const currentPhraseIndex = ref(0)
 const currentCharacterIndex = ref(0)
-const currentPhrase = ref<string>(`I'm Nguyễn Hồng Cường`)
+const currentPhrase = ref<string>(`I'm Vito`)
 const isDeleting = ref(false)
 
 function loop() {
