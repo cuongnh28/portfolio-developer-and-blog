@@ -659,6 +659,27 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
             <li class="mb-10 ms-6">
               <span
                 class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+              ><img
+                class="size-3.5 text-blue-800 dark:text-blue-300"
+                loading="lazy"
+                src="/svg/suitcase.svg"
+                alt="suitcase"
+              /></span>
+              <p
+                class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
+                style="font-display: swap"
+              >
+                Analyst, Engineer at NAB Innovation Centre Vietnam
+              </p>
+              <p
+                class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
+              >
+                12/2024 - now
+              </p>
+            </li>
+            <li class="mb-10 ms-6">
+              <span
+                class="absolute -start-3 flex size-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
               >
                 <img
                   class="size-3.5 text-blue-800 dark:text-blue-300"
@@ -670,14 +691,14 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                 class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
                 style="font-display: swap"
               >
-                <span>Senior Software Engineer in Fpt Software</span>
+                <span>Senior Software Engineer at Fpt Software</span>
               </p>
               <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
               >
-                04/2024 - Now
+                04/2024 - 12/2024
               </p>
-              <p class="mb-3 text-base">
+              <p class="mb-3 text-sm">
                 <span>Create structure project, develop and deploy</span>
                 <span> features within an agile using Java, Spring.</span>
               </p>
@@ -939,7 +960,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                 class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
                 style="font-display: swap"
               >
-                <span>Backend Team Leader in TopRate</span>
+                <span>Backend Team Leader at TopRate</span>
               </p>
               <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
@@ -1318,7 +1339,7 @@ const redirectUrl = (url: string, isOutApp: boolean) => {
                 class="mb-1 flex flex-wrap items-center text-base md:text-lg font-semibold text-gray-700 dark:text-white"
                 style="font-display: swap"
               >
-                <span>Java Developer in Synergix Technologies Pte Ltd</span>
+                <span>Java Developer at Synergix Technologies Pte Ltd</span>
               </p>
               <p
                 class="mb-2 block text-sm font-normal leading-none text-gray-500 dark:text-gray-400"
